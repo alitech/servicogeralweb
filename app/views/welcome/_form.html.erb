@@ -1,0 +1,7 @@
+<%= form_for :welcome, :controler=>"welcome",  :action => 'create' do |f| %>
+
+<div class="campo_email">
+	<%= f.label :email, :class=>"texto_email" %>
+	<%= f.text_field :email, :size=>80 %>
+	<%= f.submit 'Ok', :class=>'botaook' %>
+<% end %>

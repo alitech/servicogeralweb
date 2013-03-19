@@ -1,0 +1,36 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.textos {
+  float: left;
+  padding-left: 250px;
+  padding-top: 90px;
+  padding-bottom: 70px;
+}
+
+#form_email {
+  position: relative;
+  margin-top: 300px;
+  background-color: #228B22;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: left;
+}
+
+.campo_email {
+  padding: 40px 40px 40px 40px;
+}
+
+.texto_email {
+  padding-right: 5px; 
+  color: #006400;
+  font-weight: bold;
+  font-size:  x-large;  
+}
+
+.botaook {
+  color:#ccc;
+  background: #228B22  no-repeat center center; 
+  width:50px;  
+  height:30px;  
+}
