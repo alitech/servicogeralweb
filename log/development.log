@@ -6368,3 +6368,3593 @@ Served asset /scaffolds.css - 304 Not Modified (12ms)
 
 Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-19 18:21:29 -0300
 Served asset /welcome.js - 304 Not Modified (10ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (240.0ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (286.0ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (27.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateWelcomes (20130318222830)
+  [1m[35m (149.0ms)[0m  CREATE TABLE `welcomes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (64.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20130318222830')[0m
+  [1m[35m (0.0ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-19 18:51:22 -0300
+Connecting to database specified by database.yml
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (73.0ms)
+  Rendered welcome/index.html.erb within layouts/application (221.0ms)
+Compiled scaffolds.css  (49ms)  (pid 4120)
+Compiled welcome.css  (9ms)  (pid 4120)
+Compiled application.css  (1ms)  (pid 4120)
+Compiled jquery.js  (4ms)  (pid 4120)
+Compiled jquery_ujs.js  (0ms)  (pid 4120)
+Compiled welcome.js  (2301ms)  (pid 4120)
+Compiled application.js  (2508ms)  (pid 4120)
+Completed 200 OK in 3192ms (Views: 3192.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-19 18:51:28 -0300
+Served asset /application.css - 200 OK (61ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-19 18:51:28 -0300
+Served asset /welcome.css - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-19 18:51:28 -0300
+Served asset /scaffolds.css - 200 OK (14ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-19 18:51:28 -0300
+Served asset /jquery.js - 200 OK (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-19 18:51:28 -0300
+Served asset /jquery_ujs.js - 200 OK (131ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-19 18:51:28 -0300
+Served asset /welcome.js - 200 OK (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-19 18:51:28 -0300
+Served asset /application.js - 200 OK (102ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:30:02 -0300
+Connecting to database specified by database.yml
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (72.0ms)
+  Rendered welcome/index.html.erb within layouts/application (191.0ms)
+Completed 200 OK in 692ms (Views: 691.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:30:06 -0300
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:30:06 -0300
+Served asset /welcome.css - 200 OK (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:30:06 -0300
+Served asset /scaffolds.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:30:06 -0300
+Served asset /jquery.js - 200 OK (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:30:06 -0300
+Served asset /jquery_ujs.js - 200 OK (11ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:30:07 -0300
+Served asset /welcome.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:30:07 -0300
+Served asset /application.js - 200 OK (59ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:46:04 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:46:04 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:46:04 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:46:04 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:46:04 -0300
+Served asset /welcome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:46:04 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:46:04 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:46:04 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:46:04 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:46:04 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:46:04 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:46:04 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:46:04 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:46:04 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:46:04 -0300
+Served asset /welcome.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:46:04 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:49:46 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:49:46 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:49:46 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:49:46 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:49:46 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:49:46 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:49:46 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:49:46 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:50:49 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 19ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:50:49 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:50:49 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:50:49 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:50:49 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:50:49 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:50:49 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:50:49 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:52:01 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:52:01 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:52:01 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:52:01 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:52:01 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:52:01 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:52:01 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:52:01 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:52:43 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:52:43 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:52:43 -0300
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:52:43 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:52:43 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:52:43 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:52:43 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:52:43 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:53:52 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 47ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:53:52 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:53:52 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:53:52 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:53:52 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:53:52 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:53:52 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:53:52 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:54:24 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:54:24 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:54:24 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:54:25 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:54:25 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:54:25 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:54:25 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:54:25 -0300
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:56:13 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:13 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:13 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:13 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:13 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:13 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:13 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:13 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:56:14 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:14 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:14 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:14 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:14 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:14 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:14 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:14 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:56:15 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:15 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:15 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:15 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:15 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:15 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:15 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:15 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:56:17 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:17 -0300
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:17 -0300
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:17 -0300
+Served asset /welcome.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:17 -0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:17 -0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:17 -0300
+Served asset /welcome.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:17 -0300
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:56:22 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:22 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:22 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:22 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:22 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:22 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:22 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:22 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:56:43 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:43 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:43 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:43 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:43 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:43 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:43 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:43 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:56:44 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:44 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:44 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:44 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:44 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:44 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:44 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:44 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:56:44 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:44 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:44 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:44 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:44 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:44 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:44 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:45 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:56:45 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:45 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:45 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:45 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:45 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:45 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:45 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:45 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:56:45 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:45 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:45 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:45 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:45 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:45 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:56:45 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:45 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:45 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:45 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:45 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:56:45 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:45 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:46 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:46 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:46 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:46 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:46 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:46 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:46 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:56:47 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:47 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:47 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:56:47 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:47 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:47 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:47 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:56:47 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:57:42 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:57:43 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:57:43 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:57:43 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:57:43 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:57:43 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:57:43 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:57:43 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:58:07 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:58:08 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:58:08 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:58:08 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:58:08 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:58:08 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:58:08 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:58:08 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:58:42 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:58:42 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:58:42 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:58:42 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:58:42 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:58:42 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:58:42 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:58:42 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:58:44 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:58:44 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:58:44 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:58:44 -0300
+Served asset /welcome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:58:44 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:58:44 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:58:44 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:58:44 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 17:59:22 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 17:59:22 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 17:59:22 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 17:59:22 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 17:59:22 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 17:59:22 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 17:59:22 -0300
+Served asset /welcome.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 17:59:22 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:01:03 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Compiled welcome.css  (137ms)  (pid 6808)
+Compiled application.css  (2ms)  (pid 6808)
+Completed 200 OK in 219ms (Views: 219.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:01:03 -0300
+Served asset /application.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:01:03 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:01:03 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:01:03 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:01:03 -0300
+Served asset /welcome.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:01:03 -0300
+Served asset /welcome.css - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:01:03 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:01:18 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Compiled welcome.css  (10ms)  (pid 6808)
+Compiled application.css  (1ms)  (pid 6808)
+Completed 200 OK in 100ms (Views: 100.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:01:18 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:01:18 -0300
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:01:18 -0300
+Served asset /welcome.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:01:18 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:01:18 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:01:18 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:01:18 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:01:54 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Compiled welcome.css  (10ms)  (pid 6808)
+Compiled application.css  (1ms)  (pid 6808)
+Completed 200 OK in 87ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:01:54 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:01:54 -0300
+Served asset /application.css - 304 Not Modified (51ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:01:54 -0300
+Served asset /welcome.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:01:54 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:01:54 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:01:54 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:01:54 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:02:17 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Compiled welcome.css  (10ms)  (pid 6808)
+Compiled application.css  (2ms)  (pid 6808)
+Completed 200 OK in 83ms (Views: 83.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:02:18 -0300
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:02:18 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:02:18 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:02:18 -0300
+Served asset /welcome.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:02:18 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:02:18 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:02:18 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:02:27 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Compiled welcome.css  (11ms)  (pid 6808)
+Compiled application.css  (2ms)  (pid 6808)
+Completed 200 OK in 170ms (Views: 170.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:02:28 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:02:28 -0300
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:02:28 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:02:28 -0300
+Served asset /welcome.css - 200 OK (3ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:02:28 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:02:28 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:02:28 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:02:55 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Compiled welcome.css  (121ms)  (pid 6808)
+Compiled application.css  (1ms)  (pid 6808)
+Completed 200 OK in 199ms (Views: 199.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:02:55 -0300
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:02:56 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:02:56 -0300
+Served asset /welcome.css - 200 OK (42ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:02:56 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:02:56 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:02:56 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:02:56 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:03:12 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Compiled welcome.css  (9ms)  (pid 6808)
+Compiled application.css  (2ms)  (pid 6808)
+Completed 200 OK in 82ms (Views: 82.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:03:12 -0300
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:03:12 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:03:12 -0300
+Served asset /welcome.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:12 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:12 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:12 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:12 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:03:27 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Compiled welcome.css  (50ms)  (pid 6808)
+Compiled application.css  (1ms)  (pid 6808)
+Completed 200 OK in 120ms (Views: 120.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:03:27 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:03:27 -0300
+Served asset /welcome.css - 200 OK (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:27 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:28 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:03:28 -0300
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:28 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:28 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:03:29 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:03:29 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:03:29 -0300
+Served asset /welcome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:03:29 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:29 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:29 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:29 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:29 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:03:30 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:03:30 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:03:30 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:30 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:03:30 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:30 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:30 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:31 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:03:38 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Compiled welcome.css  (11ms)  (pid 6808)
+Compiled application.css  (1ms)  (pid 6808)
+Completed 200 OK in 102ms (Views: 101.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:03:38 -0300
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:03:38 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:38 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:03:38 -0300
+Served asset /welcome.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:38 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:38 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:38 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:03:39 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:03:39 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:03:39 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:03:39 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:39 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:39 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:39 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:03:39 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:04:49 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Compiled welcome.css  (9ms)  (pid 6808)
+Compiled application.css  (1ms)  (pid 6808)
+Completed 200 OK in 93ms (Views: 92.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:04:49 -0300
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:04:49 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:04:49 -0300
+Served asset /welcome.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:04:49 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:04:49 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:04:49 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:04:49 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:04:58 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Compiled welcome.css  (11ms)  (pid 6808)
+Compiled application.css  (3ms)  (pid 6808)
+Completed 200 OK in 176ms (Views: 175.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:04:59 -0300
+Served asset /application.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:04:59 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:04:59 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:04:59 -0300
+Served asset /welcome.css - 200 OK (5ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:04:59 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:04:59 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:04:59 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:05:01 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:05:01 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:05:01 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:05:02 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:05:02 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:05:02 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:05:02 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:05:02 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:05:13 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Compiled welcome.css  (11ms)  (pid 6808)
+Compiled application.css  (2ms)  (pid 6808)
+Completed 200 OK in 89ms (Views: 89.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:05:13 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:05:13 -0300
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:05:13 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:05:13 -0300
+Served asset /welcome.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:05:13 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:05:13 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:05:13 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:05:50 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Compiled welcome.css  (11ms)  (pid 6808)
+Compiled application.css  (1ms)  (pid 6808)
+Completed 200 OK in 177ms (Views: 176.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:05:50 -0300
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:05:50 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:05:50 -0300
+Served asset /welcome.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:05:50 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:05:50 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:05:50 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:05:50 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:08:50 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:08:50 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:08:50 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:08:50 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:08:50 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:08:50 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:08:50 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:08:50 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:09:28 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:09:29 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:09:29 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:09:29 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:09:29 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:09:29 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:09:29 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:09:29 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:10:15 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:10:15 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:10:15 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:10:15 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:10:15 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:10:15 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:10:15 -0300
+Served asset /welcome.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:10:15 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:10:51 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:10:51 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:10:51 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:10:51 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:10:51 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:10:51 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:10:51 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:10:51 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:12:10 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:12:10 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:12:10 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:12:10 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:12:10 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:12:10 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:12:10 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:12:10 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:12:53 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:12:53 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:12:53 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:12:53 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:12:53 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:12:53 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:12:53 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:12:53 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:13:45 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:13:46 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:13:46 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:13:46 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:13:46 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:13:46 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:13:46 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:13:46 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:14:05 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:14:05 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:14:05 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:14:05 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:14:05 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:14:05 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:14:05 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:14:05 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:14:06 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:14:07 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:14:07 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:14:07 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:14:07 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:14:07 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:14:07 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:14:07 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:14:09 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:14:10 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:14:10 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:14:10 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:14:10 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:14:10 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:14:10 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:14:10 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:14:11 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:14:11 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:14:11 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:14:11 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:14:11 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:14:11 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:14:11 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:14:11 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:14:20 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:14:20 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:14:20 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:14:20 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:14:20 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:14:20 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:14:20 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:14:20 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:15:43 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:15:43 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:15:43 -0300
+Served asset /welcome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:15:43 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:15:43 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:15:43 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:15:43 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:15:43 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:16:35 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:16:36 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:16:36 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:16:36 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:16:36 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:16:36 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:16:36 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:16:36 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:18:11 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:18:11 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:18:11 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:18:11 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:18:11 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:18:11 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:18:12 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:18:12 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:18:55 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:18:55 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:18:55 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:18:55 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:18:55 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:18:55 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:18:55 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:18:55 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:19:30 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Compiled welcome.css  (12ms)  (pid 6808)
+Compiled application.css  (3ms)  (pid 6808)
+Completed 200 OK in 167ms (Views: 167.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:19:30 -0300
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:19:30 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:19:30 -0300
+Served asset /welcome.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:19:30 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:19:30 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:19:30 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:19:31 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:19:39 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Compiled welcome.css  (12ms)  (pid 6808)
+Compiled application.css  (1ms)  (pid 6808)
+Completed 200 OK in 153ms (Views: 153.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:19:40 -0300
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:19:40 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:19:40 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:19:40 -0300
+Served asset /welcome.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:19:40 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:19:40 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:19:40 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:19:57 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Compiled welcome.css  (13ms)  (pid 6808)
+Compiled application.css  (2ms)  (pid 6808)
+Completed 200 OK in 177ms (Views: 177.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:19:57 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:19:57 -0300
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:19:57 -0300
+Served asset /welcome.css - 200 OK (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:19:57 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:19:57 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:19:57 -0300
+Served asset /welcome.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:19:57 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:20:11 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Compiled welcome.css  (11ms)  (pid 6808)
+Compiled application.css  (1ms)  (pid 6808)
+Completed 200 OK in 93ms (Views: 93.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:20:12 -0300
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:20:12 -0300
+Served asset /welcome.css - 200 OK (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:20:12 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:20:12 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:20:12 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:20:12 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:20:12 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:20:45 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Compiled welcome.css  (11ms)  (pid 6808)
+Compiled application.css  (2ms)  (pid 6808)
+Completed 200 OK in 90ms (Views: 90.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:20:45 -0300
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:20:45 -0300
+Served asset /welcome.css - 200 OK (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:20:45 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:20:45 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:20:45 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:20:45 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:20:45 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:21:02 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Compiled welcome.css  (17ms)  (pid 6808)
+Compiled application.css  (2ms)  (pid 6808)
+Completed 200 OK in 110ms (Views: 110.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:21:02 -0300
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:21:02 -0300
+Served asset /welcome.css - 200 OK (46ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:21:02 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:21:02 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:21:02 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:21:02 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:21:02 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:21:03 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:21:03 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:21:03 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:21:03 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:21:03 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:21:03 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:21:03 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:21:03 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:21:21 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Compiled welcome.css  (12ms)  (pid 6808)
+Compiled application.css  (1ms)  (pid 6808)
+Completed 200 OK in 94ms (Views: 93.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:21:22 -0300
+Served asset /application.css - 304 Not Modified (51ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:21:22 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:21:22 -0300
+Served asset /welcome.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:21:22 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:21:22 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:21:22 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:21:22 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:21:45 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Compiled welcome.css  (14ms)  (pid 6808)
+Compiled application.css  (2ms)  (pid 6808)
+Completed 200 OK in 100ms (Views: 100.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:21:45 -0300
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:21:45 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:21:45 -0300
+Served asset /welcome.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:21:45 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:21:45 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:21:45 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:21:45 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:22:05 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Compiled welcome.css  (12ms)  (pid 6808)
+Compiled application.css  (1ms)  (pid 6808)
+Completed 200 OK in 111ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:22:05 -0300
+Served asset /application.css - 304 Not Modified (64ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:22:05 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:22:05 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:22:05 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:22:05 -0300
+Served asset /welcome.css - 200 OK (24ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:22:06 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:22:06 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:22:20 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Compiled welcome.css  (11ms)  (pid 6808)
+Compiled application.css  (2ms)  (pid 6808)
+Completed 200 OK in 91ms (Views: 91.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:22:20 -0300
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:22:21 -0300
+Served asset /welcome.css - 200 OK (41ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:22:21 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:22:21 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:22:21 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:22:21 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:22:21 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:22:52 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Compiled welcome.css  (16ms)  (pid 6808)
+Compiled application.css  (1ms)  (pid 6808)
+Completed 200 OK in 190ms (Views: 189.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:22:52 -0300
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:22:52 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:22:52 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:22:52 -0300
+Served asset /welcome.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:22:52 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:22:52 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:22:52 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:23:07 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Compiled welcome.css  (11ms)  (pid 6808)
+Compiled application.css  (2ms)  (pid 6808)
+Completed 200 OK in 245ms (Views: 245.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:23:08 -0300
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:23:08 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:23:08 -0300
+Served asset /welcome.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:23:08 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:23:08 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:23:08 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:23:08 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:23:20 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Compiled welcome.css  (11ms)  (pid 6808)
+Compiled application.css  (2ms)  (pid 6808)
+Completed 200 OK in 93ms (Views: 92.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:23:20 -0300
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:23:20 -0300
+Served asset /welcome.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:23:20 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:23:20 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:23:20 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:23:20 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:23:20 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:23:34 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Compiled welcome.css  (11ms)  (pid 6808)
+Compiled application.css  (1ms)  (pid 6808)
+Completed 200 OK in 94ms (Views: 94.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:23:34 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:23:34 -0300
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:23:34 -0300
+Served asset /welcome.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:23:34 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:23:34 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:23:34 -0300
+Served asset /welcome.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:23:35 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:23:45 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Compiled welcome.css  (10ms)  (pid 6808)
+Compiled application.css  (2ms)  (pid 6808)
+Completed 200 OK in 316ms (Views: 316.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:23:46 -0300
+Served asset /application.css - 304 Not Modified (27ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:23:46 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:23:46 -0300
+Served asset /welcome.css - 200 OK (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:23:46 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:23:46 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:23:46 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:23:46 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:23:58 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Compiled welcome.css  (10ms)  (pid 6808)
+Compiled application.css  (1ms)  (pid 6808)
+Completed 200 OK in 92ms (Views: 91.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:23:58 -0300
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:23:58 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:23:58 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:23:58 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:23:58 -0300
+Served asset /welcome.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:23:58 -0300
+Served asset /welcome.css - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:23:58 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:24:14 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Compiled welcome.css  (13ms)  (pid 6808)
+Compiled application.css  (2ms)  (pid 6808)
+Completed 200 OK in 154ms (Views: 153.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:24:15 -0300
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:24:15 -0300
+Served asset /welcome.css - 200 OK (12ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:24:15 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:24:15 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:24:15 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:24:15 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:24:15 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:24:28 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Compiled welcome.css  (14ms)  (pid 6808)
+Compiled application.css  (1ms)  (pid 6808)
+Completed 200 OK in 135ms (Views: 135.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:24:29 -0300
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:24:29 -0300
+Served asset /welcome.css - 200 OK (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:24:29 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:24:29 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:24:29 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:24:29 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:24:29 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:24:42 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Compiled welcome.css  (10ms)  (pid 6808)
+Compiled application.css  (2ms)  (pid 6808)
+Completed 200 OK in 120ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:24:43 -0300
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:24:43 -0300
+Served asset /welcome.css - 200 OK (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:24:43 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:24:43 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:24:43 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:24:43 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:24:43 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:24:52 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Compiled welcome.css  (14ms)  (pid 6808)
+Compiled application.css  (2ms)  (pid 6808)
+Completed 200 OK in 225ms (Views: 225.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:24:53 -0300
+Served asset /application.css - 304 Not Modified (35ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:24:53 -0300
+Served asset /welcome.css - 200 OK (41ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:24:53 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:24:53 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:24:53 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:24:53 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:24:53 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:25:10 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:25:10 -0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:25:10 -0300
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:25:10 -0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:25:11 -0300
+Served asset /welcome.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:25:11 -0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:25:11 -0300
+Served asset /welcome.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:25:11 -0300
+Served asset /application.js - 200 OK (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-03-26 18:25:36 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPjYgOUdlQfqdU8GkbA2u9IJEToBHoqFjAzJBR7YNcI=", "welcome"=>{"email"=>""}, "commit"=>"Ok"}
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:25:37 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:25:37 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:25:37 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:25:37 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:25:37 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:25:37 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:25:37 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:25:49 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:25:54 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:25:54 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:25:54 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:25:54 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:25:54 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:25:54 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:25:55 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:25:55 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:26:01 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 39ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:26:01 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:26:01 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:26:01 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:26:01 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:26:01 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:26:01 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:26:01 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:26:27 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Compiled welcome.css  (12ms)  (pid 6808)
+Compiled application.css  (2ms)  (pid 6808)
+Completed 200 OK in 92ms (Views: 92.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:26:27 -0300
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:26:27 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:26:27 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:26:27 -0300
+Served asset /welcome.css - 200 OK (7ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:26:27 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:26:27 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:26:27 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:26:51 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Compiled welcome.css  (12ms)  (pid 6808)
+Compiled application.css  (2ms)  (pid 6808)
+Completed 200 OK in 192ms (Views: 192.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:26:51 -0300
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:26:51 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:26:51 -0300
+Served asset /welcome.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:26:51 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:26:51 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:26:51 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:26:51 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:26:58 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:26:58 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:26:58 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:26:59 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:26:59 -0300
+Served asset /welcome.css - 200 OK (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:26:59 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:26:59 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:26:59 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:27:10 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:27:10 -0300
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:27:10 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:27:10 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:27:10 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:27:10 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:27:10 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:27:10 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:27:12 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:27:36 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Compiled welcome.css  (12ms)  (pid 6808)
+Compiled application.css  (1ms)  (pid 6808)
+Completed 200 OK in 134ms (Views: 134.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:27:36 -0300
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:27:36 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:27:37 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:27:37 -0300
+Served asset /welcome.css - 200 OK (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:27:37 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:27:37 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:27:37 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:27:54 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Compiled welcome.css  (11ms)  (pid 6808)
+Compiled application.css  (2ms)  (pid 6808)
+Completed 200 OK in 93ms (Views: 93.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:27:54 -0300
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:27:54 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:27:54 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:27:54 -0300
+Served asset /welcome.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:27:54 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:27:54 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:27:54 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:28:00 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:28:00 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:28:00 -0300
+Served asset /welcome.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:28:00 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:28:00 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:28:00 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:28:00 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:28:00 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:28:55 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Compiled welcome.css  (11ms)  (pid 6808)
+Compiled application.css  (2ms)  (pid 6808)
+Completed 200 OK in 95ms (Views: 95.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:28:55 -0300
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:28:55 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:28:55 -0300
+Served asset /welcome.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:28:55 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:28:55 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:28:55 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:28:55 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:28:59 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 52ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:28:59 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:28:59 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:28:59 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:28:59 -0300
+Served asset /welcome.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:28:59 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:28:59 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:28:59 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:29:18 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Compiled welcome.css  (11ms)  (pid 6808)
+Compiled application.css  (2ms)  (pid 6808)
+Completed 200 OK in 156ms (Views: 156.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:29:19 -0300
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:29:19 -0300
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:29:19 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:29:19 -0300
+Served asset /welcome.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:29:19 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:29:19 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:29:19 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:29:34 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:29:35 -0300
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:29:35 -0300
+Served asset /welcome.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:29:35 -0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:29:35 -0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:29:35 -0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:29:35 -0300
+Served asset /welcome.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:29:35 -0300
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:30:39 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:30:39 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:30:39 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:30:39 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:30:39 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:30:39 -0300
+Served asset /welcome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:30:39 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:30:39 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 18:30:39 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_form.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 18:30:39 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-26 18:30:40 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 18:30:40 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-03-26 18:30:40 -0300
+Served asset /welcome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 18:30:40 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-03-26 18:30:40 -0300
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 18:30:40 -0300
+Served asset /application.js - 304 Not Modified (0ms)
